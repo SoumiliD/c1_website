@@ -11,7 +11,7 @@
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;   
     font-weight: bold;
 }
@@ -51,7 +51,7 @@ em{
     font-family: "Ubuntu";
     font-size: 1.1rem;
     font-weight: 600;
-    color: rgb(233, 233, 227);
+    color: rgb(199, 199, 195);
 }
 .nav-link:hover,.navbar-brand:hover{
     color: rgb(140, 223, 251);
