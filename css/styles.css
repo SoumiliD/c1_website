@@ -86,9 +86,7 @@ em{
 #features2{
     padding:5% 12% 3% 12%;
 }
-#services{
-    padding:5% 12% 3% 12%;
-}
+
 .col-lg-4{
     text-align: center;
     margin-bottom: 3rem;
@@ -247,6 +245,10 @@ h5.card-body{
     padding-top: 10px;
 }
 
+#services{
+    padding:5% 12% 3% 12%;
+}
+
 .moretext{
     color: #1f2f70;
     font-family: 'Roboto Mono', monospace;
@@ -254,6 +256,7 @@ h5.card-body{
 .img3,.img5{
     float: left;
     width: 30%;
+    height: 30%;
     padding: 3rem 2rem 3rem 0;
 }
 .img4{
