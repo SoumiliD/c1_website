@@ -185,7 +185,21 @@ h2#testimonial2{
     font-size: 2.5rem;
     font-weight: 100;
     line-height: 1.2;
+    text-align: center;
     /* margin-bottom: 4rem; */
+}
+.blue{
+    padding-top: 40px;
+}
+.white{
+    padding-bottom: 40px;
+    color: rgb(61, 61, 61);
+}
+.textt{
+    /* text-align: center; */
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
 }
  
 
@@ -227,4 +241,39 @@ h2#testimonial2{
     width: 40%;
     height: 40%;
     /* height: fit-content; */
+}
+
+h5.card-body{
+    padding-top: 10px;
+}
+
+.moretext{
+    color: #1f2f70;
+    font-family: 'Roboto Mono', monospace;
+}
+.img3,.img5{
+    float: left;
+    width: 30%;
+    padding: 3rem 2rem 3rem 0;
+}
+.img4{
+    float: right;
+    width: 30%;
+    padding: 3rem 0 3rem 2rem;
+}
+.bottom{
+    text-align: center;
+    width: 60%;
+    margin: 4rem auto 4rem auto;
+}
+.sub1,.sub2{
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.about{
+    font-family: 'Roboto Mono', monospace;
+}
+.about2{
+    font-family: "Ubuntu";
 }
