@@ -14,9 +14,9 @@
     /* background-image: url("2c2.jpg"); */
 }
 #new{
-    background-image: url("/images/best4.jpg");
+    background-image: url("/images/best6.jpg");
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 80%;
     margin-bottom: 0%;
     /* object-fit: contain; */
 }
@@ -53,7 +53,7 @@ em{
 }
 .navbar-brand{
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Ubuntu";
     color:rgb(108, 149, 197);
 }
@@ -62,9 +62,9 @@ em{
 }
 .nav-link{
     font-family: "Ubuntu";
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
-    color: rgb(108, 149, 197);
+    color: rgb(229, 237, 246);
 }
 .nav-link:hover,.navbar-brand:hover{
     color: rgb(60, 182, 223);
