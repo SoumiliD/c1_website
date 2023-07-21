@@ -94,11 +94,13 @@ em{
 h3.feature-font{
     font-family: "Ubuntu";
     font-weight: 600;
+    font-size: 2rem;
     color: black;
 }
 p.feature-font{
     font-family: "Ubuntu";
     font-weight: 400;
+    font-size: 1.2rem;
     color: rgb(143, 136, 136);
 }
 
@@ -252,6 +254,7 @@ h5.card-body{
 .moretext{
     color: #1f2f70;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
 }
 .img3,.img5{
     float: left;
@@ -277,7 +280,45 @@ h5.card-body{
 
 .about{
     font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
 }
 .about2{
     font-family: "Ubuntu";
 }
+
+.service{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    /* background-color: #3db4f9; */
+}
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(1.1); 
+    
+    }
+
+    @media (max-width: 768px) {
+        .custom {
+          width: auto;
+          height: 30%;
+        }
+      }
+    @media (min-width: 768px) {
+        .custom {
+          width: 400px;
+          height: 270px;
+        }
+      }
