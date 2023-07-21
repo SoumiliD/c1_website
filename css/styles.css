@@ -4,9 +4,21 @@
 /* title section */
 
 #title{
-    background-color: #04598a;
+    /* background-color: #04598a; */
     color: white;
+    /* background-image: url("/images/best.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: black;
+    opacity: 0.9;
     /* background-image: url("2c2.jpg"); */
+}
+#new{
+    background-image: url("/images/best4.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    padding-bottom: 0;
+    /* object-fit: contain; */
 }
 
 h1{
@@ -43,6 +55,7 @@ em{
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Ubuntu";
+    color:rgb(108, 149, 197);
 }
 .nav-item{
     padding: 0 18px;
@@ -51,10 +64,10 @@ em{
     font-family: "Ubuntu";
     font-size: 1.1rem;
     font-weight: 600;
-    color: rgb(199, 199, 195);
+    color: rgb(108, 149, 197);
 }
 .nav-link:hover,.navbar-brand:hover{
-    color: rgb(140, 223, 251);
+    color: rgb(60, 182, 223);
 }
 
 
@@ -119,13 +132,13 @@ p.feature-font{
 
 #testimonials{
     
-    background-color: #037dc3;
+    background-color: #346079;
     color:white;
     text-align: center;
 }
 #testimonials2{
     
-    background-color: #037dc3;
+    background-color: #346079;
     color:white;
     text-align: center;
 }
@@ -175,7 +188,7 @@ h2#testimonial2{
 /* cta section */
 
 #cta{
-    background-color:#0271b0;
+    background-color:#406d87;
     color: white;
     text-align: center;
     padding: 5% 12%;
@@ -322,3 +335,11 @@ h5.card-body{
           height: 270px;
         }
       }
+/* #navbarNav{
+    background-color: rgb(4, 4, 4);
+    opacity: .9;
+}
+#tag{
+    background-color: rgb(4, 4, 4);
+    opacity: .9;
+} */
