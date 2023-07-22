@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: 100%; */
     background-color: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     /* background-image: url("2c2.jpg"); */
 }
 /* #new{
@@ -82,6 +82,7 @@ em{
 .title-img{
     max-width:100%;
     height: 80%;
+    padding-left: 4%;
     /* border-radius: 20px; */
     /* transform: rotate(15deg); */
 }
