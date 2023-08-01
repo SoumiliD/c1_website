@@ -328,6 +328,7 @@ h5.card-body{
         .custom {
           width: auto;
           height: 30%;
+          max-width: 100%;
         }
       }
     @media (min-width: 768px) {
